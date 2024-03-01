@@ -4,11 +4,15 @@ This project generates a rough integration with RDS database.
 
 ## Tech Stack
 
-**Java:** version 17
+**Java:** 17
+
+**JUnit:** 5
 
 **Spring:** 3.2.2
 
-**OpenApi:** V3
+**Spring Data:** H2
+
+**Swagger:** OpenApi V3
 
 ## Installation
 
@@ -28,17 +32,15 @@ You can create the structure for the database
 
 ## Deployment
 
-To deploy this project run
+To deploy this project run spring boot
 
-```bash
-  mvn spring-boot:run
-```
+![Spring](src/main/resources/img/eclipse.gif)
 
-## Spring Boot
-
-![Spring](src/main/resources/img/spring.png)
+![SpringRelease](src/main/resources/img/spring.png)
 
 ## Swagger
+
+![Swagger](src/main/resources/img/swagger.gif)
 
 ![Swagger](src/main/resources/img/swagger.png)
 
